@@ -19682,7 +19682,36 @@
                 I = (0, t.useCallback)((function() {
                     s("")
                 }), []);
-            return t.createElement(t.Fragment, null, t.createElement($d, null, t.createElement(nf, null, t.createElement(rf, null,), t.createElement(ef, null,)),),)
+            return t.createElement(t.Fragment, null, t.createElement($d, null, t.createElement(nf, null, t.createElement(rf, null, t.createElement("img", {
+                width: "255px",
+                height: "60px",
+                alt: "Logo",
+                src: "https://static.rfstat.com/renderforest/images/website_maker_images/render-logo.svg"
+            })), t.createElement(ef, null, t.createElement(tf, null, "Disclaimer:"), " This website was built with Renderforest, however it is ", t.createElement(tf, null, "NOT"), " managed by Renderforest. \u2028If you find the content on this website abusive or inappropriate please report right away.")), t.createElement( of , {
+                type: "primary",
+                onClick: y
+            }, "Report")), r && t.createElement(df, {
+                onClose: b
+            }, t.createElement(np, {
+                onClose: b,
+                onSuccess: v,
+                onError: x
+            })), m && t.createElement(df, {
+                onClose: w,
+                style: {
+                    maxWidth: "400px",
+                    zIndex: 20
+                }
+            }, t.createElement(dp, null)), u && t.createElement(df, {
+                onClose: I,
+                style: {
+                    maxWidth: "400px"
+                }
+            }, t.createElement(lp, {
+                message: u,
+                icon: f,
+                title: a
+            })))
         };
         gp.meta = lf();
         const mp = gp;
