@@ -1,0 +1,44 @@
+@import "../../colors.scss";
+.Messages {
+  width: 100%;
+  height: 0px;
+  display: flex;
+  border-radius: 12px;
+  transition: 0.2s all;
+  background: var(--xx-bg-blur);
+  box-shadow: $bg-shadow;
+  flex-direction: column;
+  backdrop-filter: $blur;
+  position: relative;
+}
+.scrollarea {
+  width: 100%;
+  max-height: 100%;
+  height: 100%;
+  overflow: scroll;
+}
+.MessagesOpen {
+  height: 360px;
+  padding: 16px 8px 0px 8px;
+}
+.padding {
+  width: 100%;
+  padding-bottom: 50px;
+}
+.scrool_down {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: white;
+  color: black;
+  display: flex;
+  box-shadow: 0px 2px 6px rgb(100, 100, 100);
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transform: translateX(-50%);
+  position: fixed;
+  bottom: 42px;
+  left: 50%;
+}

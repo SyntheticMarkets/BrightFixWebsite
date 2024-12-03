@@ -1,0 +1,13 @@
+// Imports
+import ___CSS_LOADER_API_SOURCEMAP_IMPORT___ from "../../../../node_modules/css-loader/dist/runtime/cssWithMappingToString.js";
+import ___CSS_LOADER_API_IMPORT___ from "../../../../node_modules/css-loader/dist/runtime/api.js";
+var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(___CSS_LOADER_API_SOURCEMAP_IMPORT___);
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, ".NK8FMAmAxby8BHEgRwroag\\=\\={font-family:-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Helvetica,Arial,sans-serif}.z96kvT7Ew8sOsKPbZyedDw\\=\\={font-weight:bold;margin-top:20px;margin-bottom:10px}.CSrytwi8N7maCVdHzBje9Q\\=\\={color:red;margin-left:10px}", "",{"version":3,"sources":["webpack://./src/components/Canvas/OtherComponent/OtherCopyToClipBoard.module.scss"],"names":[],"mappings":"AAAA,4BACE,0GAAA,CAIF,4BACE,gBAAA,CACA,eAAA,CACA,kBAAA,CAEF,4BACE,SAAA,CACA,gBAAA","sourcesContent":[".textarea {\n  font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto,\n    \"Helvetica Neue\", Helvetica, Arial, sans-serif;\n}\n\n.title {\n  font-weight: bold;\n  margin-top: 20px;\n  margin-bottom: 10px;\n}\n.copyText {\n  color: red;\n  margin-left: 10px;\n}\n"],"sourceRoot":""}]);
+// Exports
+___CSS_LOADER_EXPORT___.locals = {
+	"textarea": "NK8FMAmAxby8BHEgRwroag==",
+	"title": "z96kvT7Ew8sOsKPbZyedDw==",
+	"copyText": "CSrytwi8N7maCVdHzBje9Q=="
+};
+export default ___CSS_LOADER_EXPORT___;

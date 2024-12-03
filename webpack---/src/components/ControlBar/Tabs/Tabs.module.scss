@@ -1,0 +1,16 @@
+@import "../../colors.scss";
+
+.tabs {
+  width: 90vw;
+  background: $bg-blur;
+  padding: 0px 20px;
+  box-shadow: $bg-shadow;
+  backdrop-filter: $blur;
+  border-radius: 24px;
+  display: flex;
+  font-family: $font;
+  position: fixed;
+  top: 3px;
+  left: 5vw;
+  z-index: 2147483640;
+}

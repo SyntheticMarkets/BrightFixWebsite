@@ -1,0 +1,1 @@
+chrome-extension://nggpkpfmdkbaakpndblpandmldendooa/app.bundle.js

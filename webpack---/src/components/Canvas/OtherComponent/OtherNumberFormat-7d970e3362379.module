@@ -1,0 +1,11 @@
+// Imports
+import ___CSS_LOADER_API_SOURCEMAP_IMPORT___ from "../../../../node_modules/css-loader/dist/runtime/cssWithMappingToString.js";
+import ___CSS_LOADER_API_IMPORT___ from "../../../../node_modules/css-loader/dist/runtime/api.js";
+var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(___CSS_LOADER_API_SOURCEMAP_IMPORT___);
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, ".HrfZqtpYrrMqfMOoPnNadw\\=\\={font-size:18px;font-weight:bold;margin-bottom:10px}", "",{"version":3,"sources":["webpack://./src/components/Canvas/OtherComponent/OtherNumberFormat.module.scss"],"names":[],"mappings":"AAAA,4BACI,cAAA,CACA,gBAAA,CACA,kBAAA","sourcesContent":[".title{\n    font-size:18px;\n    font-weight: bold;\n    margin-bottom:10px;\n}"],"sourceRoot":""}]);
+// Exports
+___CSS_LOADER_EXPORT___.locals = {
+	"title": "HrfZqtpYrrMqfMOoPnNadw=="
+};
+export default ___CSS_LOADER_EXPORT___;

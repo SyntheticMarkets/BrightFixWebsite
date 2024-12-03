@@ -1,0 +1,29 @@
+@import "../../colors.scss";
+.Profile {
+  width: 180px;
+  padding: 0px 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: $bg-shadow;
+  background: rgba(0, 0, 0, 0.7);
+  font-family: $font;
+  color: white;
+  position: absolute;
+  bottom: 34px;
+  left: -170px;
+}
+.title {
+  font-size: 14px;
+  font-weight: bold;
+}
+.clickable {
+  cursor: pointer;
+  span {
+    transition: 0.2s all;
+
+    &:hover {
+      color: $main;
+      font-size:11px;
+    }
+  }
+}

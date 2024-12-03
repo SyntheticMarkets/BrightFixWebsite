@@ -1,0 +1,1 @@
+export default "import React from 'react'\nimport Fab from '@material-ui/core/Fab';\nimport AddIcon from '@material-ui/icons/Add';\n\nexport default (props) => {\n    let style = { background: props.color, color:'white' }\n\n    return (\n        <Fab \n            {...props} \n            style={style}>\n            <AddIcon />\n        </Fab>\n    )\n}";

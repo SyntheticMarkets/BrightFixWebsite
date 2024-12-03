@@ -1,0 +1,1 @@
+export default "import React from 'react'\nimport Link from '@material-ui/core/Link';\n\nexport default function LinkDemo(props){\n    return (<Link \n                {...props} \n                style={{color:'rgb(120,120,120)'}}>\n                    {props.text}\n            </Link>)\n}";

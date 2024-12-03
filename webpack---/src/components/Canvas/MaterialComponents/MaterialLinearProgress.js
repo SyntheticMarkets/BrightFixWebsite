@@ -1,0 +1,1 @@
+export default "import React from 'react'\nimport LinearProgress from '@material-ui/core/LinearProgress';\n\nexport default (props)=>{\n    return (<LinearProgress \n                {...props} />)\n}";

@@ -1,0 +1,11 @@
+// Imports
+import ___CSS_LOADER_API_SOURCEMAP_IMPORT___ from "../../../../node_modules/css-loader/dist/runtime/cssWithMappingToString.js";
+import ___CSS_LOADER_API_IMPORT___ from "../../../../node_modules/css-loader/dist/runtime/api.js";
+var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(___CSS_LOADER_API_SOURCEMAP_IMPORT___);
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, ".F6Bb72O7m\\+eed-XSu6CwvA\\=\\={box-sizing:border-box !important}", "",{"version":3,"sources":["webpack://./src/components/Canvas/MaterialComponents/MaterialBadget.module.scss"],"names":[],"mappings":"AAAA,6BACI,gCAAA","sourcesContent":[".badge{\n    box-sizing: border-box !important;\n}"],"sourceRoot":""}]);
+// Exports
+___CSS_LOADER_EXPORT___.locals = {
+	"badge": "F6Bb72O7m+eed-XSu6CwvA=="
+};
+export default ___CSS_LOADER_EXPORT___;

@@ -1,0 +1,47 @@
+@import "../../colors.scss";
+.wrapper {
+  height: 8px;
+  width: 100%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.2s all;
+  opacity: 0.8;
+  margin-left: 22px;
+  position: absolute;
+  top: -10px;
+  left: 50%;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+.scrollWrapper {
+  width: 50%;
+  height: 100%;
+  cursor: move;
+
+  &:hover {
+    .scroll {
+      height: 100%;
+      background: rgba(0, 0, 0, 0.6);
+      top: -2px;
+    }
+  }
+}
+.scroll {
+  width: 100%;
+  height: 6px;
+  background: $bg-blur;
+  box-shadow: $bg-shadow;
+  backdrop-filter: $blur;
+  border-radius: 20px;
+  transition: 0.2s all;
+  position: relative;
+  top: 0px;
+}
+.closeWrapper {
+  position: relative;
+  top: -1px;
+}

@@ -1,0 +1,1 @@
+export default "import React from 'react'\nimport Typography from '@material-ui/core/Typography';\n\nexport default (props)=>{\n    return (\n        <Typography \n            {...props}>\n            This is text\n        </Typography>\n    )\n}\n";

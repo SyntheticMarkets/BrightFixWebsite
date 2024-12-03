@@ -1,0 +1,1 @@
+export default "import React from 'react'\nimport CircularProgress from '@material-ui/core/CircularProgress';\n\nexport default (props)=>{\n    return (<CircularProgress \n                {...props} />)\n}";

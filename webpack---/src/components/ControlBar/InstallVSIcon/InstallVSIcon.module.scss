@@ -1,0 +1,63 @@
+@import "../../colors.scss";
+$shadow: rgb(100, 100, 100); //$modal-shadow
+.InstallVSIcon {
+  height: 36px;
+  width: 36px;
+  border-radius: 50%;
+  position: fixed;
+  background: $bg-blur;
+  box-shadow: 0px -1px 1px 0px rgba(0, 0, 0, 0.25) inset,
+    0px 1px 1px 0px rgba(0, 0, 0, 0.25) inset,
+    0px 24px 30px 0px rgba(0, 0, 0, 0.05);
+  backdrop-filter: $blur;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  cursor: pointer;
+  left: calc(50% + 166px);
+  top: 4px;
+
+  &:hover .tooltip {
+    display: block;
+  }
+}
+.icon {
+  font-size: 17px;
+  color: #ffd43b;
+}
+.tooltip {
+  display: none;
+  width: 300px;
+  height: 160px;
+  line-height: normal;
+  cursor: auto;
+  position: absolute;
+  bottom: 44px;
+  right: -130px;
+}
+.tooltip {
+  height: calc(100% + 10px);
+  background: rgba(16, 16, 32, 0.9);
+  box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.08);
+  backdrop-filter: blur(5px);
+  text-align: center;
+  border-radius: 4px;
+  padding: 8px;
+  box-sizing: border-box !important;
+
+  &:after {
+    content: " ";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 8px 8px 0px;
+    filter: drop-shadow(-3px 0px 5px $shadow);
+    border-color: transparent rgba(26, 26, 42, 1) transparent transparent;
+    transform: translate(-50%, 0%) rotate(-90deg);
+    transition: ease 0.15s all;
+    margin-top: -9px;
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+  }
+}

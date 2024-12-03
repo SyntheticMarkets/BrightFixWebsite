@@ -1,0 +1,24 @@
+@import "../../../colors.scss";
+.tab {
+  font-size: 12px;
+  padding: 8px 16px;
+  border-right: 1px rgba(255, 255, 255, 0.1) solid;
+  cursor: pointer;
+  transition: 0.2s all;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &:hover {
+    background: rgba(255, 255, 255, 0.1);
+  }
+}
+.tabActive {
+  background: rgba(255, 255, 255, 0.2);
+  border-bottom: 2px $main solid;
+  cursor: default;
+}
+.icon {
+  margin-right: 8px;
+  font-size: 14px;
+}

@@ -1,0 +1,1 @@
+export default ".textarea {\n  font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto,\n    \"Helvetica Neue\", Helvetica, Arial, sans-serif;\n}\n\n.title {\n  font-weight: bold;\n  margin-top: 20px;\n  margin-bottom: 10px;\n}\n.copyText {\n  color: red;\n  margin-left: 10px;\n}\n";

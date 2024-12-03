@@ -1,0 +1,12 @@
+// Imports
+import ___CSS_LOADER_API_SOURCEMAP_IMPORT___ from "../node_modules/css-loader/dist/runtime/cssWithMappingToString.js";
+import ___CSS_LOADER_API_IMPORT___ from "../node_modules/css-loader/dist/runtime/api.js";
+var ___CSS_LOADER_EXPORT___=___CSS_LOADER_API_IMPORT___(___CSS_LOADER_API_SOURCEMAP_IMPORT___);
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, "#menu-{\n    z-index: 130300000000000000 !important;\n    \n}\n.removeAttributes11{\n    cursor: all-scroll !important;\n    transition: 0s all !important;\n}", "", {
+    "version": 3, "sources":["webpack://./src/App.css"], "names":[], "mappings":"AAAA;IACI,sCAAsC;;AAE1C;AACA;IACI,6BAA6B;IAC7B,6BAA6B;AACjC", "sourcesContent":["#menu-{\n    z-index: 130300000000000000 !important;\n    \n}\n.removeAttributes11{\n    cursor: all-scroll !important;\n    transition: 0s all !important;\n}"], "sourceRoot":""
+}
+
+]);
+// Exports
+export default ___CSS_LOADER_EXPORT___;

@@ -1,0 +1,100 @@
+@import "../../colors.scss";
+.TextAI {
+  width: 96%;
+  border-radius: 38px;
+  transform: translate(0, 50%);
+  background: var(--xx-bg-blur);
+  backdrop-filter: $blur;
+  box-shadow: var(--xx-bg-shadow);
+  box-sizing: border-box !important;
+  padding: 4px;
+  display: flex;
+  position: absolute;
+  bottom: 0px;
+  left: 2%;
+}
+.TextAI_onButton {
+  border-radius: 8px;
+  transform: translate(0, 0);
+  transition: 0.4s all;
+  border: 1px rgb(65, 71, 80) solid;
+
+  .textarea {
+    height: 36px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    background: var(--xx-bg-blur);
+    box-shadow: none;
+
+    &::placeholder {
+      color: rgba(255, 255, 255, 0.4);
+      transition: 0.2s all;
+    }
+
+    &:focus,
+    &:hover,
+    &:active {
+      background: var(--xx-bg-blur);
+    }
+  }
+}
+.TextAI_focus {
+  border: 1px white solid !important;
+}
+.textarea {
+  flex-grow: 1;
+  height: 40px;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 28px;
+  box-shadow: inset 1.46px 2.92px 2.92px -0.73px rgba(0, 0, 0, 0.25),
+    inset 0px -0.73px 0.73px 0px rgba(0, 0, 0, 0.35);
+  border: none;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 12px;
+  font-family: $font;
+  transition: 0.2s all;
+  padding: 4px 16px;
+  resize: none;
+  box-sizing: border-box !important;
+  transition: 0.2s all;
+  outline: none;
+
+  &::placeholder {
+    color: rgba(255, 255, 255, 0.8);
+    transition: 0.2s all;
+  }
+  &:focus,
+  &:hover,
+  &:active {
+    background: rgba(0, 0, 0, 0.5);
+    border-color: $main;
+    color: white;
+  }
+}
+.error {
+  width: 230px;
+  background: $bg-hard;
+  transform: translateX(-50%);
+  padding: 8px 10px;
+  border-radius: 4px;
+  color: $color;
+  font-family: $font;
+  text-align: center !important;
+  position: absolute;
+  top: -36px;
+  left: 50%;
+
+  &:before {
+    position: absolute;
+    content: "";
+    height: 8px;
+    width: 8px;
+    background: $bg-hard;
+    bottom: -3px;
+    left: 50%;
+    transform: translate(-50%) rotate(45deg);
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    z-index: -1;
+  }
+}

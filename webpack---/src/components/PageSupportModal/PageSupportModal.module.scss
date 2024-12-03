@@ -1,0 +1,114 @@
+@import "../colors.scss";
+.wrapper {
+  width: 100%;
+  height: 100%;
+  z-index: 100000;
+  color: $color;
+  font-family: $font;
+  background: rgba(255, 255, 255, 0.7);
+  z-index: 2147483647;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+.background {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+.box {
+  width: 450px;
+  line-height: 20px;
+  display: flex;
+  border-radius: 6px;
+  transform: translate(-50%, -50%);
+  // background: $bg-modal;
+  background: white;
+  box-shadow: 0 25px 75px rgba(16, 30, 54, 0.25);
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.SignUp {
+  width: 100%;
+  display: flex;
+  font-size: 18px;
+  flex-direction: column;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+.title {
+  font-family: $font;
+  text-align: center;
+  font-weight: 600;
+  line-height: 32px;
+  font-size: 32px;
+  color: black;
+}
+.subtitle {
+  margin: 25px 0px;
+  text-align: center;
+  line-height: 19px;
+  color: rgb(30, 30, 30);
+}
+.progress {
+  display: flex;
+  color: rgb(30, 30, 30);
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px rgb(240, 240, 240) solid;
+}
+.progress_text {
+  margin-right: 20px;
+  font-weight: bold;
+}
+.progress_line {
+  width: 100%;
+  background: rgb(230, 230, 230);
+  border-radius: 8px;
+}
+.progress_line_fill {
+  height: 100%;
+  border-radius: 8px;
+  background: $green;
+}
+.tasks {
+  color: rgb(30, 30, 30);
+}
+.button {
+  width: 360px;
+  height: 50px;
+  line-height: 50px;
+  color: white;
+  font-size: 12px;
+  background: #7b68ee;
+  text-align: center !important;
+  font-family: $font;
+  cursor: pointer;
+  font-weight: 500;
+  border-radius: 6px;
+  transition: 0.2s all;
+  font-size: 18px;
+  transform: translateX(-50%);
+  position: relative;
+  left: 50%;
+
+  &:hover {
+    box-shadow: 0px 0px 4px rgba(141, 71, 249, 1);
+    transform: scale(1.02) translateX(-50%);
+  }
+}
+.close {
+  color: rgb(230, 230, 230);
+  transition: 0.2s all;
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+.close:hover {
+  color: $main;
+}

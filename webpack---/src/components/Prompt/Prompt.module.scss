@@ -1,0 +1,31 @@
+@import "../colors.scss";
+.wrapper {
+  width: 420px;
+  display: flex;
+  position: absolute;
+  z-index: 2147483645;
+}
+.haveMessages {
+  height: auto;
+}
+.close {
+  color: $color;
+  transition: 0.2s all;
+  cursor: pointer;
+  position: absolute;
+  top: -36px;
+  right: 6px;
+  z-index: 1;
+}
+.closeWithMessages {
+  top: -14px;
+  right: 2px;
+}
+.editorPosition {
+  width: 90vw;
+  transform: translate(-50%, 0%);
+  margin-top:20px;
+  position: fixed;
+  left: 50%;
+  bottom:8px;
+}

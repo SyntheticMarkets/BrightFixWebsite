@@ -1,0 +1,1 @@
+export default "import React from 'react'\nimport Chip from '@material-ui/core/Chip';\nimport Avatar from '@material-ui/core/Avatar';\n\nexport default function ChipDemo(props) {\n    return (<Chip \n                color=\"primary\" \n                label=\"Chip component\"\n                avatar={<Avatar>F</Avatar>} \n                {...props}/>\n            )\n}";

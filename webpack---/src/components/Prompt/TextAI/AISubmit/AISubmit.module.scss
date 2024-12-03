@@ -1,0 +1,104 @@
+@import "../../../colors.scss";
+.wrapper {
+  display: flex;
+  align-items: center;
+}
+.wrapper_forEditor {
+  .sendButton_wrapper {
+    // width: 100px;
+    // border-radius: 4px;
+  }
+}
+.limit {
+  font-size: 11px;
+  position: relative;
+  color: rgb(200, 200, 200);
+  margin-left: 8px;
+  opacity: 1;
+  transition: 0.2s all;
+
+  .error {
+    width: 220px;
+    display: none;
+  }
+
+  &:hover .error {
+    display: block;
+  }
+}
+.error {
+  width: 230px;
+  background: $bg-hard;
+  transform: translateX(-50%);
+  padding: 8px 10px;
+  border-radius: 4px;
+  color: $color;
+  text-align: center !important;
+  position: absolute;
+  top: -36px;
+  left: 50%;
+
+  &:before {
+    position: absolute;
+    content: "";
+    height: 8px;
+    width: 8px;
+    background: $bg-hard;
+    bottom: -3px;
+    left: 50%;
+    transform: translate(-50%) rotate(45deg);
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    z-index: -1;
+  }
+}
+.errorBig {
+  top: -52px;
+}
+.sendButton_wrapper {
+  height: 36px;
+  width: 36px;
+  border-radius: 50%;
+  margin-left: 0px 6px;
+  box-sizing: border-box !important;
+  transition: 0.2s all;
+  text-align: center;
+  overflow: hidden;
+  align-items: center;
+  margin-left: 8px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  display: flex;
+  transition: 0.2s all;
+  background: $main;
+  box-shadow: 0 2px 25px rgba(110, 128, 250, 0.6);
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+.sendButton {
+  width: 58px;
+  font-size: 14px;
+  padding: 0px 12px;
+  transition: 0.2s all;
+  font-family: $font;
+  cursor: pointer;
+  color: white;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  position: relative;
+  float: right;
+
+  span {
+    font-size: 12px;
+  }
+}
+
+.icon {
+  width: 16px;
+  text-align: center !important;
+  font-size: 16px;
+}

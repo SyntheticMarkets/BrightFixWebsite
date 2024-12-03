@@ -1,0 +1,15 @@
+// Imports
+import ___CSS_LOADER_API_SOURCEMAP_IMPORT___ from "../../../node_modules/css-loader/dist/runtime/cssWithMappingToString.js";
+import ___CSS_LOADER_API_IMPORT___ from "../../../node_modules/css-loader/dist/runtime/api.js";
+var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(___CSS_LOADER_API_SOURCEMAP_IMPORT___);
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, ".sYUuWaF8dEvvZH0ku0Aiog\\=\\={width:100%;overflow:auto;border-radius:4px;position:relative;font-family:monaco,Consolas,Lucida Console,monospace;font-size:12px;margin-top:15px}.AY1G-PxEHFwyiA7QwVEpeA\\=\\={font-family:monaco,Consolas,Lucida Console,monospace;color:#828b9b;font-size:12px}._2Dcw7sOAOYTwy6jdo422Sg\\=\\={margin-left:20px}._6ZLEJJF8-ufm7YEzkoDmZQ\\=\\={color:#8c8c8c}._8PZ25UUD8v3gPzDEMlGaNg\\=\\={color:#c60813}", "",{"version":3,"sources":["webpack://./src/components/Code/Code.module.scss"],"names":[],"mappings":"AAAA,4BAEI,UAAA,CACA,aAAA,CACA,iBAAA,CACA,iBAAA,CACA,oDAAA,CACA,cAAA,CACA,eAAA,CAEJ,4BACI,oDAAA,CACA,aAAA,CACA,cAAA,CAGJ,6BACI,gBAAA,CAEJ,6BACI,aAAA,CAEJ,6BACI,aAAA","sourcesContent":[".codeArea{\n    /* max-height: 130px; */\n    width:100%;\n    overflow: auto;\n    border-radius: 4px;;\n    position: relative;\n    font-family: monaco,Consolas,Lucida Console,monospace; \n    font-size:12px;\n    margin-top:15px;\n}\n.codeClassName{\n    font-family: monaco,Consolas,Lucida Console,monospace; \n    color:#828B9B;\n    font-size:12px;\n}\n\n.codeRules{\n    margin-left:20px;\n}\n.value{\n    color:rgb(140,140,140);\n}\n.key{\n    color:#C60813\n}"],"sourceRoot":""}]);
+// Exports
+___CSS_LOADER_EXPORT___.locals = {
+	"codeArea": "sYUuWaF8dEvvZH0ku0Aiog==",
+	"codeClassName": "AY1G-PxEHFwyiA7QwVEpeA==",
+	"codeRules": "_2Dcw7sOAOYTwy6jdo422Sg==",
+	"value": "_6ZLEJJF8-ufm7YEzkoDmZQ==",
+	"key": "_8PZ25UUD8v3gPzDEMlGaNg=="
+};
+export default ___CSS_LOADER_EXPORT___;

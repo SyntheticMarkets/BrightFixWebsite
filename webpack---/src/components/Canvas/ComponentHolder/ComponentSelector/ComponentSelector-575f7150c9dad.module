@@ -1,0 +1,17 @@
+// Imports
+import ___CSS_LOADER_API_SOURCEMAP_IMPORT___ from "../../../../../node_modules/css-loader/dist/runtime/cssWithMappingToString.js";
+import ___CSS_LOADER_API_IMPORT___ from "../../../../../node_modules/css-loader/dist/runtime/api.js";
+var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(___CSS_LOADER_API_SOURCEMAP_IMPORT___);
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, ".e-2B\\+4pECmuHYR8C4guK\\+Q\\=\\={height:200px;width:200px;border:1px #b4b4b4 dashed;box-sizing:border-box;pointer-events:none;transition:.2s border;position:absolute;left:-4px;top:-4px}.e-2B\\+4pECmuHYR8C4guK\\+Q\\=\\= .hiy8DWFrzx8p6S2GYz91SQ\\=\\={opacity:0;background:#b4b4b4}.w3U3r4kw6Y-QEzwCAZMK5A\\=\\={border:1px #31acf4 solid}.w3U3r4kw6Y-QEzwCAZMK5A\\=\\= .hiy8DWFrzx8p6S2GYz91SQ\\=\\={opacity:1;background:#31acf4}.hiy8DWFrzx8p6S2GYz91SQ\\=\\={width:6px;height:6px;border-radius:50%;transition:.2s all;position:absolute}.VcVgmTY2J5\\+RKnP8qSY1hw\\=\\={top:-3px;left:-3px}.uuP5OX6ZfiXJckRefa5z2A\\=\\={top:-3px;right:-3px}.xMGdjRTdVwNcyX0ZyH4W4Q\\=\\={bottom:-3px;right:-3px}.YtWrPpwfBr0Ee-RsZFSshw\\=\\={bottom:-3px;left:-3px}", "",{"version":3,"sources":["webpack://./src/components/Canvas/ComponentHolder/ComponentSelector/ComponentSelector.module.scss"],"names":[],"mappings":"AACA,8BACI,YAAA,CACA,WAAA,CACA,yBAAA,CACA,qBAAA,CACA,mBAAA,CACA,qBAAA,CACA,iBAAA,CACA,SAAA,CACA,QAAA,CAEA,0DACI,SAAA,CACA,kBAAA,CAGR,4BACI,wBAAA,CACA,wDACI,SAAA,CACA,kBAAA,CAGR,4BACI,SAAA,CACA,UAAA,CACA,iBAAA,CACA,kBAAA,CACA,iBAAA,CAEJ,6BACI,QAAA,CACA,SAAA,CAEJ,4BACI,QAAA,CACA,UAAA,CAEJ,4BACI,WAAA,CACA,UAAA,CAEJ,4BACI,WAAA,CACA,SAAA","sourcesContent":["\n.borderBox{\n    height:200px;\n    width:200px;\n    border:1px rgb(180,180,180) dashed;\n    box-sizing: border-box;\n    pointer-events: none;\n    transition:0.2s border;\n    position: absolute;\n    left:-4px;\n    top:-4px;\n    \n    .dot{\n        opacity: 0;\n        background:rgb(180,180,180);\n    }\n}\n.borderBoxOpen{\n    border:1px rgb(49,172,244) solid;\n    .dot{\n        opacity: 1;\n        background:rgb(49,172,244);\n    }\n}\n.dot{\n    width:6px;\n    height:6px;\n    border-radius: 50%;\n    transition:0.2s all;\n    position: absolute;\n}\n.dot_TopLeft{\n    top:-3px;\n    left:-3px;\n}\n.dot_TopRight{\n    top:-3px;\n    right:-3px;\n}\n.dot_BottomRight{\n    bottom:-3px;\n    right:-3px;\n}\n.dot_BottomLeft{\n    bottom:-3px;\n    left:-3px;\n}"],"sourceRoot":""}]);
+// Exports
+___CSS_LOADER_EXPORT___.locals = {
+	"borderBox": "e-2B+4pECmuHYR8C4guK+Q==",
+	"dot": "hiy8DWFrzx8p6S2GYz91SQ==",
+	"borderBoxOpen": "w3U3r4kw6Y-QEzwCAZMK5A==",
+	"dot_TopLeft": "VcVgmTY2J5+RKnP8qSY1hw==",
+	"dot_TopRight": "uuP5OX6ZfiXJckRefa5z2A==",
+	"dot_BottomRight": "xMGdjRTdVwNcyX0ZyH4W4Q==",
+	"dot_BottomLeft": "YtWrPpwfBr0Ee-RsZFSshw=="
+};
+export default ___CSS_LOADER_EXPORT___;
