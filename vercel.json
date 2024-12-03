@@ -2,7 +2,7 @@
   "version": 2,
   "builds": [
     {
-      "src": "brightfix.renderforestsites.com/index.html",
+      "src": "brightfix.renderforestsites.com/*",
       "use": "@vercel/static"
     }
   ],

@@ -19682,31 +19682,7 @@
                 I = (0, t.useCallback)((function() {
                     s("")
                 }), []);
-            return t.createElement(t.Fragment, null, t.createElement($d, null, t.createElement(nf, null, t.createElement(rf, null,), t.createElement(ef, null,)), t.createElement( of , {
-                type: "primary",
-                onClick: y
-            }, "Report")), r && t.createElement(df, {
-                onClose: b
-            }, t.createElement(np, {
-                onClose: b,
-                onSuccess: v,
-                onError: x
-            })), m && t.createElement(df, {
-                onClose: w,
-                style: {
-                    maxWidth: "400px",
-                    zIndex: 20
-                }
-            }, t.createElement(dp, null)), u && t.createElement(df, {
-                onClose: I,
-                style: {
-                    maxWidth: "400px"
-                }
-            }, t.createElement(lp, {
-                message: u,
-                icon: f,
-                title: a
-            })))
+            return t.createElement(t.Fragment, null, t.createElement($d, null, t.createElement(nf, null, t.createElement(rf, null,), t.createElement(ef, null,)),),)
         };
         gp.meta = lf();
         const mp = gp;
