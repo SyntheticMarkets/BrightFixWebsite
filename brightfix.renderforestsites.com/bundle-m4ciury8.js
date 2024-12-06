@@ -19690,7 +19690,7 @@
             })), t.createElement(ef, null,  "  ", t.createElement(tf, null, ""), "   ")), t.createElement( of , {
                 type: "primary",
                 onClick: y
-            }, "")), r && t.createElement(df, {
+            }, "Report")), r && t.createElement(df, {
                 onClose: b
             }, t.createElement(np, {
                 onClose: b,
