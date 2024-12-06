@@ -19687,7 +19687,7 @@
                 height: "60px",
                 alt: "Logo",
                 src: "https://static.rfstat.com/renderforest/images/website_maker_images/render-logo.svg"
-            })), t.createElement(ef, null,  "  ", t.createElement(tf, null, ""), "   ")), t.createElement( of , {
+            })), t.createElement(ef, null, t.createElement(tf, null, "Disclaimer:"), " This website was built with Renderforest, however it is ", t.createElement(tf, null, "NOT"), " managed by Renderforest. \u2028If you find the content on this website abusive or inappropriate please report right away.")), t.createElement( of , {
                 type: "primary",
                 onClick: y
             }, "Report")), r && t.createElement(df, {
