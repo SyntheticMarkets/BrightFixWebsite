@@ -19686,8 +19686,11 @@
                 width: "255px",
                 height: "60px",
                 alt: "Logo",
-                src: "https://static.rfstat.com/renderforest/images/website_maker_images/render-logo3.svg"
-            })), t.createElement(ef, null,  "  ", t.createElement(tf, null, ""), "   ")), ), r && t.createElement(df, {
+                src: "https://static.rfstat.com/renderforest/images/website_maker_images/render-logo.svg"
+            })), t.createElement(ef, null,  "  ", t.createElement(tf, null, ""), "   ")), t.createElement( of , {
+                type: "primary",
+                onClick: y
+            }, "")), r && t.createElement(df, {
                 onClose: b
             }, t.createElement(np, {
                 onClose: b,
